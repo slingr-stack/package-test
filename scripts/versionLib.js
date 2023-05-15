@@ -5,3 +5,12 @@ exports.versionValue = function (a, b) {
 exports.configTest = function () {
     return config.get("webhooksSharedKey");
 }
+
+exports.complexTest = function (a){
+    var obj  = {
+        value : 2,
+        msg : "{{message here}}: ",
+        other : '{}}}'
+    }
+    return obj.msg + a;
+}
