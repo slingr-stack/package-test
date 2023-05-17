@@ -14,3 +14,8 @@ exports.complexTest = function (a){
     }
     return obj.msg + a;
 }
+
+exports.depConfig = function(){
+    var response = dependencies.crypto.base64().configTest();
+    return response;
+}
