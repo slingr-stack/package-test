@@ -16,6 +16,6 @@ exports.complexTest = function (a){
 }
 
 exports.depConfig = function(){
-    var response = dependencies.crypto.base64().configTest();
+    var response = dependencies.crypto.base64.configTest();
     return response;
 }
