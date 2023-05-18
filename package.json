@@ -8,7 +8,7 @@
    }],
    "configuration":[
      {
-       "name": "crypto.webhooksSharedKey",
+       "name": "webhooksSharedKey",
        "label": "Webhooks shared key",
        "type": "text",
        "required": true
