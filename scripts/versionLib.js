@@ -19,3 +19,8 @@ exports.depConfig = function(){
     var response = dependencies.crypto.base64.configTest();
     return response;
 }
+
+exports.setDependencyValue = function(value){
+    dependencies.crypto.config().set('webhooksSharedKey', value);
+    return "webhooksSharedKey configured on dependency with value:" + value
+}
