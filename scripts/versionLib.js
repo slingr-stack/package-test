@@ -21,6 +21,6 @@ exports.depConfig = function(){
 }
 
 exports.setDependencyValue = function(value){
-    dependencies.crypto.config().set('webhooksSharedKey', value);
+    dependencies.crypto.config.set('webhooksSharedKey', value);
     return "webhooksSharedKey configured on dependency with value:" + value
 }
