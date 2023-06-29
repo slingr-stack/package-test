@@ -1,5 +1,5 @@
 exports.versionValue = function () {
-    return "Version Test v3.9.2";
+    return "Version Test v5.0.0";
 }
 
 exports.configTest = function () {
