@@ -89,7 +89,6 @@
    "metadata": [
        {
            "type": "script",
-           "namespace": "versionLib",
            "path": "/scripts/versionLib.js"
        }
    ]
